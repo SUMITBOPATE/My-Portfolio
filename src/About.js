@@ -17,11 +17,12 @@ When I am not smashing the keyboard, you will find me playing cricket, reading o
 <button className="btn">Hire me</button>
 </div>
 </div>
-<div className="column">
-  
-  </div>
 
+<div className="column">
+  <img src="./My.jpg" className="img" alt ="img"/>
+  </div>
 </div>
+
 
 
    </>
