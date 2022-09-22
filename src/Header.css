@@ -15,9 +15,9 @@ header{
 	overflow: hidden;
 }
 .logo{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+	font-size: 3rem;
+font-style: italic;
+color: #F7CA18;
 }
 
 .menu{

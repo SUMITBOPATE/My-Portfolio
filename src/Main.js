@@ -12,12 +12,12 @@ export default function Main() {
               Hi, <span class="wave">👋</span> I'm &nbsp;
               <span className="name">Sumit Bopate</span>
             </p>
-            <p>I am in
-            <span className="role"><div class="slider">
-  <p>Web development</p>
-  <p>Designing</p>
-  <p>UI /UX</p>
-</div> </span></p>
+  
+            <span className="role">I'm into<span className="typing-slider">
+  <p> &nbsp; Web development</p>
+  <p> &nbsp;Designing</p>
+  <p> &nbsp; UI /UX</p>
+</span> </span>
           </div>
         </div>
       </div>

@@ -15,8 +15,8 @@ export default function Header() {
 
 		<header>
 			<div className="head_container">
-				<div classNAme="logo">
-			SB
+				<div className="logo">
+			Sumit
 				</div>
 				<div className="menu" id="myTopnav">
 					<ul>
