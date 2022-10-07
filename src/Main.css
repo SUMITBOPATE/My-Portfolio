@@ -1,49 +1,75 @@
-.main-content{
-
-height: 400px;
-	border: black;
-	border-width: 2px;
-	box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.06);
+.main-content {
+  height: 400px;
+  border: black;
+  border-width: 2px;
+  box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.06);
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
-  color: rgb(4,12,44);
-  font-size: x-large;
+  color: rgb(4, 12, 44);
+  font-size: 40px;
   font-style: sans-serif;
-
 }
+welcome-section {
+  font-size: 20px;
+}
+/* .h1{
+  transform: rotate(90deg);
+} */
+span.letter:hover {
+  color: #f7ca18;
+  transition: 0.3s;
+  transform: rotate(-90deg);
+}
+
 .wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 80% 80%;       /* Pivot around the bottom-left palm */
+  font-size: xx-large;
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 80% 80%; /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
-.name{
+.name {
   font-weight: 700;
 }
-.role{
+.role {
   font-size: x-large;
- 
 }
 
-
 @keyframes cursor {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
@@ -54,7 +80,8 @@ height: 400px;
   from {
     width: 100%;
   }
-  90%, to {
+  90%,
+  to {
     width: 0;
   }
 }
@@ -85,7 +112,7 @@ height: 400px;
 }
 
 .typing-slider p::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -118,4 +145,3 @@ height: 400px;
   animation-delay: 10s;
   animation-timing-function: steps(12), step-end;
 }
-

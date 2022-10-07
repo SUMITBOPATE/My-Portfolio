@@ -1,20 +1,21 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 import { Particles } from '@blackbox-vision/react-particles';
 
-
-import Header from "./Header.js"
-import Main from "./Main.js"
-import About from "./About.js"
-import Skills from "./Skills.js"
+import Header from './Header.js';
+import Main from './Main.js';
+import About from './About.js';
+import Skills from './Skills.js';
+import Projects from './Projects.js';
 export default function App() {
   return (
-   <>
-<Header/>
+    <>
+      <Header />
 
-<Main/>
-<About/>
-<Skills/>
-   </>
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+    </>
   );
 }

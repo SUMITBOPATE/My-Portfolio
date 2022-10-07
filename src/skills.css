@@ -1,6 +1,6 @@
-.skill{
-  height: 30rem;
-position: absolute;
+.skill {
+  height: 50rem;
+  position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ position: absolute;
   justify-content: center;
   height: 25%;
   width: 25%;
-  background: url("https://i.imgur.com/2WQui47.jpg");
+  background: url('https://cdn-icons-png.flaticon.com/512/143/143655.png');
   background-size: 1% 1%;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,18 +30,18 @@ position: absolute;
 .cube {
   transform-style: preserve-3d;
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   -webkit-animation: rotate 10s ease-in-out infinite;
-          animation: rotate 10s ease-in-out infinite;
+  animation: rotate 10s ease-in-out infinite;
   transform-origin: center center;
 }
 
 .side {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  
+  width: 120px;
+  height: 120px;
+
   opacity: 1.5;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,32 +49,32 @@ position: absolute;
 
 .back {
   transform: translateZ(-180px) rotateX(180deg);
-  background-image: url(https://source.unsplash.com/featured/?nature);
+  background-image: url(https://cdn-icons-png.flaticon.com/512/143/143655.png);
 }
 
 .left {
   transform: translateX(-180px) rotateY(90deg);
-  background-image: url(https://source.unsplash.com/featured/?tree);
+  background-image: url(https://www.flaticon.com/free-icon/css-3_5968242);
 }
 
 .right {
   transform: translateX(180px) rotateY(90deg);
-  background-image: url(https://source.unsplash.com/featured/?home);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/5968/5968292.png);
 }
 
 .top {
   transform: translateY(-180px) rotateX(90deg);
-  background-image: url(https://source.unsplash.com/featured/?car);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/3664/3664988.png);
 }
 
 .bottom {
   transform: translateY(180px) rotateX(270deg);
-  background-image: url(https://source.unsplash.com/featured/?work);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/474/474933.png);
 }
 
 .front {
   transform: translateZ(180px);
-  background-image: url(https://source.unsplash.com/featured/?);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1126/1126012.png);
 }
 
 @-webkit-keyframes rotate {
