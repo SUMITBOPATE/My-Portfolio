@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+
 export default function About() {
   return (
     <>
@@ -19,9 +20,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="column">
-          <img src="/My.jpg" className="img" alt="img5" />
-        </div>
+        <div className="column">my</div>
       </div>
     </>
   );
