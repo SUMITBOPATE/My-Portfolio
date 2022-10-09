@@ -1,20 +1,23 @@
+.skill-main {
+  display: flex;
+}
 .skill {
-  height: 50rem;
+  height: 40rem;
   position: absolute;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   border: 1px solid red;
-  margin: auto;
 }
 .scene {
   perspective: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
+
   background: url('https://cdn-icons-png.flaticon.com/512/143/143655.png');
   background-size: 1% 1%;
   background-position: center;
@@ -30,17 +33,17 @@
 .cube {
   transform-style: preserve-3d;
   position: relative;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: rotate 10s ease-in-out infinite;
-  animation: rotate 10s ease-in-out infinite;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: rotate 5s ease-in-out infinite;
+  animation: rotate 7s ease-in-out infinite;
   transform-origin: center center;
 }
 
 .side {
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 
   opacity: 1.5;
   background-size: cover;
@@ -54,7 +57,7 @@
 
 .left {
   transform: translateX(-180px) rotateY(90deg);
-  background-image: url(https://www.flaticon.com/free-icon/css-3_5968242);
+  background-image: url(https://as2.ftcdn.net/v2/jpg/04/15/96/47/1000_F_415964736_flUoUyU9eILk1bcKvU27Ci6sKSJsaKE6.jpg);
 }
 
 .right {
@@ -135,4 +138,24 @@
   100% {
     transform: rotateX(360deg);
   }
+}
+.skill-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-end;
+  align-content: flex-end;
+  margin-top: 110px;
+  margin-left: 10px;
+  color: rgb(4, 12, 44);
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  padding-top: 5px;
+}
+.ONE {
+  background-color: bisque;
 }

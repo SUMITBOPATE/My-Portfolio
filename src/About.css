@@ -1,45 +1,42 @@
 .column {
   float: left;
   width: 70%;
-
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 .About {
   width: 100%;
-  height: 30rem;
-display: flex;
-
-  background-color: rgb(250,250,250);
-
+  height: 35rem;
+  display: flex;
+  border: solid 1px red;
+  background-color: rgb(250, 250, 250);
 }
-.about-button{
-  color:rgb(4,12,44);
+.about-button {
+  color: rgb(4, 12, 44);
   font-weight: 700;
-  font-style:inherit;
+  font-style: inherit;
   padding: auto;
   font-size: xx-large;
   margin-left: 20px;
-padding-top: 30px;
-  font-stretch:ultra-expanded;
+  padding-top: 30px;
+  font-stretch: ultra-expanded;
 }
-.about-section{
-margin-left: 20px;
-margin-top: 40px;
-font-size: large;
+.about-section {
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: large;
 }
-.section{
-  color: rgb(122,122,122);
-
+.section {
+  color: rgb(122, 122, 122);
 
   line-height: 150%;
 }
-.btn{
+.btn {
   outline: none;
   margin-top: 40px;
   padding: 10px;
@@ -47,6 +44,6 @@ font-size: large;
   padding-right: 38px;
   color: white;
   font-size: large;
-background-color: rgb(4,12,44);
-border-radius: 2px;
+  background-color: rgb(4, 12, 44);
+  border-radius: 2px;
 }

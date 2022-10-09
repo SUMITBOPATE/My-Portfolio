@@ -26,8 +26,8 @@ export default function Main() {
               I'm into
               <span className="typing-slider">
                 <p> &nbsp; Web development</p>
-                <p> &nbsp;Designing</p>
-                <p> &nbsp; UI /UX</p>
+                <p> &nbsp;DSA</p>
+                <p> &nbsp; UI </p>
               </span>{' '}
             </span>
           </div>

@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@blackbox-vision/react-particles": "^1.2.0",
+    "framer-motion": "^7.5.3",
+    "material-ui/core": "*",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-router-dom": "^6.4.2",
     "scss": "^0.2.4"
   },
   "scripts": {
