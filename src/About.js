@@ -20,7 +20,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="column">my</div>
+        <div className="column"><img src ="myphoto.jpg"></img></div>
       </div>
     </>
   );
