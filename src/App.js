@@ -7,15 +7,16 @@ import Main from './Main.js';
 import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
-
+import Contact from './Contact.js';
 export default function App() {
   return (
     <>
       <Header />
-      <Main /> 
+      <Main />
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </>
   );
 }

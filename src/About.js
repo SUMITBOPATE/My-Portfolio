@@ -17,10 +17,15 @@ export default function About() {
               cricket, reading or watching You-Tube.
             </section>
             <button className="btn">Hire me</button>
+            <span className="btn-2">
+            <button className="btn">Download my Resume </button>
+            </span>
           </div>
         </div>
 
-        <div className="column"><img src ="my.jpg" alt="my" className="img"></img></div>
+        <div className="column">
+          <img src="my.jpg" alt="my" className="img"></img>
+        </div>
       </div>
     </>
   );

@@ -14,6 +14,8 @@ export default function Projects() {
             {/* <img src={img} alt="quiz-img" /> */}
           </div>
           <div className="E-commerce">E-commerce</div>
+          <img src="./waves.png" />
+          
         </div>
       </div>
     </>

@@ -13,14 +13,16 @@ export default function Skills() {
               I like to code things from scratch,<br></br> and enjoy bringing
               ideas to life in the browser.
             </h3>
-            <div className="list">
-              <h1>My Skills</h1>
-              <span class="ONE">JS</span>
-              <span class="ONE">HTML</span>
-              <span class="ONE">CSS</span>
-              <span class="ONE">DATA STRUCTURE AND ALGORITHMS</span>
-              <span class="ONE">React JS </span>
-              <span class="ONE">JAVA </span>
+          
+              <h1> Skills</h1>
+              <div className="list">
+              <button class="button-23">JS</button>
+              <button>HTML</button>
+              <button>CSS</button>
+              <button>DATA STRUCTURE AND ALGORITHMS</button>
+              <button>React JS </button>
+              <button>JAVA </button>
+             
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 .project-main {
-  display:flex;
-  height: 55rem;
+  display: flex;
+  height: 35rem;
   width: 100%;
   color: black;
   font-size: larger;
@@ -9,7 +9,7 @@
 }
 .head-project {
   display: flex;
-  color:blue;
+  color: blue;
   font-size: large;
 }
 .project-item {

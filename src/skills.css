@@ -8,7 +8,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .scene {
   perspective: 700px;
@@ -151,11 +151,13 @@
 }
 .list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: start;
-
+  gap: 20px;
   padding-top: 5px;
 }
 .ONE {
   background-color: bisque;
 }
+
+/* CSS */
