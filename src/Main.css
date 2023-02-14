@@ -11,7 +11,8 @@
   position: relative;
   color: rgb(4, 12, 44);
   font-size: 40px;
-  font-style: sans-serif;padding: ;
+  font-style: sans-serif;
+  padding: ;
 }
 welcome-section {
   font-size: 20px;
@@ -97,9 +98,11 @@ span.letter:hover {
 }
 .typing-slider {
   font-family: Consolas, monospace;
-  font-weight: bold;
+
   text-align: center;
   white-space: nowrap;
+  color: #ff033e;
+  font-weight: 900;
 }
 
 .typing-slider p {
