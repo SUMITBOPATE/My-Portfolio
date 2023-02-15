@@ -9,11 +9,11 @@ export default function Projects() {
         <div className="head-project">Projects</div>
         <div className="project-item">
           <div className="calculator">Calculator</div>
-          <div className="quiz">
+          <div className="calculator">
             Quiz-Game
             {/* <img src={img} alt="quiz-img" /> */}
           </div>
-          <div className="E-commerce">E-commerce</div>
+          <div className="calculator">E-commerce</div>
           <img src="./waves.png" />
           
         </div>

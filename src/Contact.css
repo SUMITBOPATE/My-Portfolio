@@ -11,9 +11,11 @@
   flex-direction: row;
   margin-left: 50px;
   margin-top: 20px;
-  font-size: xx-large;
-  color: #33006f;
-  font-weight: 800;
+  color: rgb(4, 12, 44);
+  
+  font-size: 39px;
+  text-decoration: underline;
+  text-decoration-color: #f7ca18;
   text-align: center;
 }
 .content-list {
