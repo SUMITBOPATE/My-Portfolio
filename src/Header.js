@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <header>
         <div className="head_container">
-          <div className="logo">Sumit</div>
+          <div className="logo-name">Sumit</div>
           <div className="menu" id="myTopnav">
             <ul>
               <li>

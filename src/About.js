@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div className="About">
         <div className="column">
-          <div className="about-button">About</div>
+          <div className="about-button">Hi, I’m Sumit. Nice to meet you.</div>
           <div className="about-section">
             <section className="section">
               I am a FrontEnd Developer and a curious person who loves to know
@@ -24,7 +24,7 @@ export default function About() {
         </div>
 
         <div className="column">
-          <img src="my.jpg" alt="my" className="img"></img>
+          <img src="https://mattfarley.ca/img/mf-avatar.svg" alt="my" className="img"></img>
         </div>
       </div>
     </>

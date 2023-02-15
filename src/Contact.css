@@ -1,6 +1,7 @@
 .container {
   width: 100%;
-  height: 30rem;
+  height: 31rem;
+  background-color: rgb(4, 12, 44);
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-rows: 0.5fr 0.4fr 1fr;
@@ -8,27 +9,56 @@
 }
 .contact {
   display: flex;
+
   flex-direction: row;
-  margin-left: 50px;
   margin-top: 20px;
-  color: rgb(4, 12, 44);
-  
-  font-size: 39px;
-  text-decoration: underline;
-  text-decoration-color: #f7ca18;
+  /* margin-top: 40px; */
+  background-color: rgb(110, 7, 243);
+  -webkit-box-shadow: 0px 0px 51px 2px rgba(255, 46, 182, 0.57);
+  -moz-box-shadow: 0px 0px 51px 2px rgba(255, 46, 182, 0.57);
+  box-shadow: 0px 0px 51px 2px rgba(255, 46, 182, 0.57);
+  padding-top: 20px;
+  color: aliceblue;
+  font-size: 23px;
+  border-radius: 15px;
+  justify-content: center;
   text-align: center;
 }
 .content-list {
   display: flex;
-  text-align: left;
+  justify-content: space-around;
   font-size: x-large;
-  margin-left: 100px;
-  gap: 100px;
   color: #ff033e;
 }
 .reach {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
   text-align: center;
   /* margin-left: 400px; */
   font-size: x-large;
-  color: rgb(4, 12, 44);
+  color: rgb(226, 228, 236);
+}
+.credits {
+  display: flex;
+  justify-content: space-around;
+  color: antiquewhite;
+}
+.call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.info {
+  display: inline-block;
+  flex-direction: row;
+  color: azure;
+}
+.logo {
+  height: 25px;
+  width: 25px;
+  color: white;
+  transition-duration: 0.6s;
 }

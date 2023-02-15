@@ -1,38 +1,108 @@
 .project-main {
   display: grid;
-  height: 35rem;
+  height: 45rem;
   width: 100%;
   color: black;
   font-size: larger;
-  margin-top: 2rem;
+ margin-top: 2rem;
+  justify-content: center;
+  /* align-items: center; */
   /* border: solid 1px blue; */
 }
 .head-project {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   color: rgb(4, 12, 44);
-  top: 0px;
-  font-size: 39px;
+  /* margin-left:90px; */
+  font-weight:900;
+  font-size: 49px;
   text-decoration: underline;
   text-decoration-color: #f7ca18;
 }
-.project-item {
+/* .project-item {
   display: grid;
   top: 0px;
   grid-template-rows: 5fr 5fr 5fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  height: 40rem;
+  border-radius: 50px;
   justify-items: stretch;
   align-items: stretch;
-  color: rgb(56, 32, 2);
-}
+  color: rgb(4, 12, 44);
+  text-align: center;
+  font-weight: 500;
+  font-size: xx-large;
+} */
 
 .calculator {
-  background-color: #ff1b6b;
-
+  border: rgb(226, 223, 210) 2px solid;
+  border-radius: 5px;
 }
-.calculator {
-  background-color: black;
-}
-.calculator {
-  background-color: black;
-}
+/* #info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top:20px;
+ font-size: large;
+} */
+.card {
+  width: 390px;
+  height: 254px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  text-align: center;
+ 
+ }
+ 
+ .card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-body {
+  color: rgb(134, 134, 134);
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
