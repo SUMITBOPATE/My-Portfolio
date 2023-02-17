@@ -21,7 +21,7 @@ export default function Header() {
                 <a href="/Skills">Skills</a>
               </li>
               <li>
-                <a href="#">Contact me</a>
+                <a href="#">Contact</a>
               </li>
             </ul>
           </div>

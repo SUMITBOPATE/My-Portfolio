@@ -58,6 +58,26 @@
   margin-top: 110px;
   margin-left: 90px;
 }
+.section{
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    150% { opacity: 1; }
+  }
+  
+  
+  
+ 
 /* .column {
   background-image: url(https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg&uid=R34990359&ga=GA1.2.1003778413.1665310661);
 } */
