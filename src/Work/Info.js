@@ -8,8 +8,10 @@ return (
     <p className="text-title"> {props.name} </p>
     <p className="text-body"> {props.desc}</p>
   </div>
-  <button class="card-button">View Code</button>
+  <div className="line-btn">
+  <button class="card-button">View </button>
   <button class="card-button">Live</button>
+  </div>
 </div>
 </>
 

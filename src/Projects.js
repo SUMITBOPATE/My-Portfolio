@@ -13,7 +13,7 @@ export default function Projects() {
         </div>
         <div className="project-main">
         {Users.map((e) => {
-          return <Info name={e.name} rollNo={e.desc} />;
+          return <Info name={e.name} desc={e.desc} />;
         })}
       </div>
     </>

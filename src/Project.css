@@ -59,23 +59,31 @@ padding-bottom: 0.3rem; */
  .card-details {
   color: black;
   height: 100%;
-  gap: .5em;
+  gap: 1.5em;
   display: grid;
  
   padding-bottom: 2.5rem;
  }
- 
+ .line-btn{
+   display: flex;
+  gap: 1rem;
+   justify-content: center;
+   align-items: center;
+   
+ }
  .card-button {
+   
   transform: translate(-50%, 125%);
-  width: 60%;
+  width: 50%;
   border-radius: 1rem;
   border: none;
-  background-color: #008bf8;
+  /* background-color: #f7ca18; */
+  background-color: rgb(110,7,243);
   color: #fff;
   font-size: 1rem;
-  padding: .5rem 1rem;
-  /* position: absolute; */
-  left: 10%;
+
+  position: relative;
+  left: 23%;
   bottom: 0;
   opacity: 0;
   transition: 0.3s ease-out;
@@ -83,6 +91,8 @@ padding-bottom: 0.3rem; */
  
  .text-body {
   color: rgb(134, 134, 134);
+  font-weight: bold;
+  opacity: 70%;
  }
  
  /*Text*/
@@ -93,8 +103,9 @@ padding-bottom: 0.3rem; */
  
  /*Hover*/
  .card:hover {
-  border-color: #008bf8;
-  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+  /* border-color:#f7ca18; */
+  border-color:rgb(110,7,243);
+  box-shadow: 1px 20px 20px 10px rgba(0, 0, 0, 0.25);
  }
  
  .card:hover .card-button {

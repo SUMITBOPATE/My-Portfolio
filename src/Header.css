@@ -20,7 +20,8 @@ header {
 .logo-name {
   font-size: 3rem;
   font-style: 'https://fonts.googleapis.com/css?family=Sofia';
-  color: #f7ca18;
+  /* color: #f7ca18; */
+  color: #ff033e;
 }
 
 .menu {
