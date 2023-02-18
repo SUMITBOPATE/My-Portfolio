@@ -1,18 +1,7 @@
-.project-main {
-  display: grid;
-  height: auto;
 
-  color: black;
-  font-size: larger;
- margin-top: 2rem;
-  justify-content: center;
-
-  /* align-items: center; */
-  /* border: solid 1px blue; */
-}
 .head-project {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
   color: rgb(4, 12, 44);
   padding-bottom: 2.5rem;
@@ -21,38 +10,40 @@
   font-size: 49px;
   text-decoration: underline;
   text-decoration-color: #f7ca18;
+  padding-left: 2rem;
+padding-top: 1rem;
+
 }
-/* .project-item {
+.project-main {
   display: grid;
-  top: 0px;
-  grid-template-rows: 5fr 5fr 5fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  height: 40rem;
-  border-radius: 50px;
-  justify-items: stretch;
-  align-items: stretch;
-  color: rgb(4, 12, 44);
-  text-align: center;
-  font-weight: 500;
-  font-size: xx-large;
-} */
+  grid-template-columns: auto  auto auto;
+  gap:4.5rem;
+  padding-left: 1.5rem;
+
+  /* display: flex;
+  height: auto;
+flex-direction: row;
+flex-wrap: wrap;
+  color: black;
+  font-size: larger;
+ margin-top: 2rem;
+  justify-content: center;
+align-content: center;
+padding-left: 2rem;
+padding-top: 2rem;
+padding-bottom: 0.3rem; */
+  /* align-items: center; */
+  /* border: solid 1px blue; */
+}
 
 .calculator {
   border: rgb(226, 223, 210) 2px solid;
   border-radius: 5px;
   
 }
-/* #info{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-  top:20px;
- font-size: large;
-} */
+
 .card {
-  width: 390px;
+  width: 190px;
   height: 254px;
   border-radius: 20px;
   background: #f5f5f5;
@@ -70,7 +61,7 @@
   height: 100%;
   gap: .5em;
   display: grid;
-  place-content: center;
+ 
   padding-bottom: 2.5rem;
  }
  
@@ -83,8 +74,8 @@
   color: #fff;
   font-size: 1rem;
   padding: .5rem 1rem;
-  position: absolute;
-  left: 50%;
+  /* position: absolute; */
+  left: 10%;
   bottom: 0;
   opacity: 0;
   transition: 0.3s ease-out;
@@ -109,4 +100,7 @@
  .card:hover .card-button {
   transform: translate(-50%, 50%);
   opacity: 1;
+ }
+ .text-body{
+   color: black;
  }
