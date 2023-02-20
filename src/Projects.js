@@ -7,13 +7,12 @@ import Info from './Work/Info.js';
 export default function Projects() {
   return (
     <>
-    
-        <div className="head-project" id="pro ">
-          Projects
-        </div>
-        <div className="project-main">
+      <div className="head-project" id="pro ">
+        Projects
+      </div>
+      <div className="project-main">
         {Users.map((e) => {
-          return <Info name={e.name} desc={e.desc} />;
+          return <Info name={e.name} desc={e.desc} img={e.img} />;
         })}
       </div>
     </>

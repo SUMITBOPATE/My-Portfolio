@@ -12,16 +12,16 @@ export default function Header() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="/About">About</a>
+                <a href="./index.html#About.js">About</a>
               </li>
               <li>
-                <a href="/Projects">Projects</a>
+                <a href="./index.html#Projects.js">Projects</a>
               </li>
               <li>
-                <a href="/Skills">Skills</a>
+                <a href="/Skills.js">Skills</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="/Contact.js">Contact</a>
               </li>
             </ul>
           </div>

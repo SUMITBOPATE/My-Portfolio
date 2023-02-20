@@ -25,7 +25,7 @@ export default function Main() {
             <span className="role">
               I'm into
               <span className="typing-slider">
-                <p> &nbsp; Web development</p>
+                <p className="web"> &nbsp; Web development</p>
                 <p> &nbsp;DSA</p>
                 <p> &nbsp; UI </p>
               </span>{' '}

@@ -1,9 +1,21 @@
 import React from 'react';
 import './Contact.css';
+import { IconName } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 export default function Contact() {
   return (
     <>
+    
       <footer class="footer-distributed">
+    
+    
+
         <div class="footer-left">
           {/* <img src="" a="" WIDTH=150 HEIGHT=100> */}
 
@@ -60,6 +72,8 @@ export default function Contact() {
         </div>
         <hr className="line"></hr>
         <p class="footer-company-name">sb &copy; 2023</p>
+     
+        
       </footer>
     </>
   );

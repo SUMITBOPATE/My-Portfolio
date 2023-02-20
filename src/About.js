@@ -16,7 +16,7 @@ export default function About() {
               When I am not smashing the keyboard, you will find me playing
               cricket, reading or watching You-Tube.
             </section>
-            <button className="btn">Hire me</button>
+            <button className="btn" id="btn-1">Hire me</button>
             <span className="btn-2">
             <button className="btn">Download my Resume </button>
             </span>
